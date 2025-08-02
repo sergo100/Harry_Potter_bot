@@ -44,17 +44,27 @@ BOT_TOKEN=ВАШ_ТОКЕН_БОТА
 Убедитесь, что все изображения, указанные в character_results.json (harry.jpg, hermione.jpg и т.д.), а также welcome.jpg находятся в папке assets/. Если этой папки нет, создайте её:
 
 potter_bot/
-├── bot.py
-├── questions.json
-├── character_results.json
 ├── .env
+├── bot.py
+├── character_results.json
+├── questions.json
 ├── requirements.txt
-└── assets/
-    ├── welcome.jpg
-    ├── donate_qr.png
-    ├── harry.jpg
-    ├── hermione.jpg
-    └── ... (все остальные изображения персонажей)
+├── assets/
+│   ├── welcome.jpg
+│   ├── donate_qr.png
+│   ├── bellatrix.jpg
+│   ├── dobby.jpg
+│   ├── draco.jpg
+│   ├── dumbledore.jpg
+│   ├── hagrid.jpg
+│   ├── harry.jpg
+│   ├── hermione.jpg
+│   ├── luna.jpg
+│   ├── ron.jpg
+│   ├── snape.jpg
+│   ├── umbridge.jpg
+│   └── voldemort.jpg
+
 Важно: Убедитесь, что имена файлов изображений в character_results.json точно совпадают с именами файлов в папке assets/ (включая расширение и регистр букв).
 
 5. Запуск бота
