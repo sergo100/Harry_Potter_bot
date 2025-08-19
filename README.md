@@ -43,7 +43,8 @@ BOT_TOKEN=ВАШ_ТОКЕН_БОТА
 4. Подготовка медиа-файлов (изображений)
 Убедитесь, что все изображения, указанные в character_results.json (harry.jpg, hermione.jpg и т.д.), а также welcome.jpg находятся в папке assets/. Если этой папки нет, создайте её:
 
-```potter_bot/
+```
+potter_bot/
 ├── .env
 ├── bot.py
 ├── character_results.json
@@ -63,7 +64,8 @@ BOT_TOKEN=ВАШ_ТОКЕН_БОТА
 │   ├── ron.jpg
 │   ├── snape.jpg
 │   ├── umbridge.jpg
-│   └── voldemort.jpg```
+│   └── voldemort.jpg
+```
 
 Важно: Убедитесь, что имена файлов изображений в character_results.json точно совпадают с именами файлов в папке assets/ (включая расширение и регистр букв).
 
